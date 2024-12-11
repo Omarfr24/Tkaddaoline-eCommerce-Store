@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+}
+.sticky-order-now-button {
+    position: fixed;
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    z-index: 9999; /* Ensure it is above other elements */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.sticky-order-now-button .order-now-button {
+    background-color: #0071a1; /* Change button color to your theme color */
+    color: #fff; /* Text color */
+    padding: 15px; /* Adjust padding */
+    width: 100%; /* Button takes full width */
+    border: none; /* Remove border for better aesthetics */
+    border-radius: 0; /* Remove rounded corners */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: block; /* Make it a block element */
+}
+
+.sticky-order-now-button .order-now-button:hover {
+    background-color: #005177; /* Darker shade on hover */
+}
+
+
+.woocommerce div.product .order-now-button {
+    margin-top: 15px !important;
+    display: block !important;
+    width: 100% !important;
+}
+.woocommerce div.product .order-now-button {
+    margin-top: 15px !important; /* Space between the "Add to Cart" button */
+    display: flex !important; /* Use flexbox for alignment */
+    justify-content: center !important; /* Horizontally center text */
+    align-items: center !important; /* Vertically center text */
+    width: 100% !important; /* Full-width button */
+    text-align: center !important; /* Center the text inside the button */
+    padding: 10px !important; /* Adjust padding for better appearance */
+    box-sizing: border-box; /* Ensure padding doesn't overflow the width */
+    background-color: #204473 !important; /* Set the button background color */
+    color: #fff !important; /* Set text color to white for contrast */
+    border: none !important; /* Remove border */
+    border-radius: 5px !important; /* Add slight rounding to the corners */
+}
+
+}
+
+
+}
+
+/* Style the form labels */
+#checkoutForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the input fields */
+#checkoutForm input[type="text"],
+#checkoutForm input[type="tel"],
+#checkoutForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the textarea */
+#checkoutForm textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px;
+}
+
+/* Style the submit button */
+#checkoutForm button[type="submit"] {
+    width: 100%;
+    background-color: #204473; /* Change this color to match your theme */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+#checkoutForm button[type="submit"]:hover {
+    background-color: #204473;
+}
+body {
+    overflow-x: hidden;
+}
+
+}
